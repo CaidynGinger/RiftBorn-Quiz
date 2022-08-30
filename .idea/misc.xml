@@ -3,8 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/DV200/quiz app/app/src/main/res/layout/activity_categories.xml" value="0.1" />
+        <entry key="..\:/DV200/quiz app/app/src/main/res/layout/activity_end_questions.xml" value="0.2694746376811594" />
+        <entry key="..\:/DV200/quiz app/app/src/main/res/layout/activity_highscore.xml" value="0.2694746376811594" />
         <entry key="..\:/DV200/quiz app/app/src/main/res/layout/activity_main.xml" value="0.16289592760180996" />
-        <entry key="..\:/DV200/quiz app/app/src/main/res/layout/activity_quiz_questions.xml" value="0.18802083333333333" />
+        <entry key="..\:/DV200/quiz app/app/src/main/res/layout/activity_quiz_questions.xml" value="0.25" />
       </map>
     </option>
   </component>

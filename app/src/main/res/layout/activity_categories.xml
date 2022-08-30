@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CategoriesActivity"
+    android:orientation="vertical"
+    android:gravity="start"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/et_username_placement"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hello user"
+        android:layout_marginTop="50dp"
+        android:textSize="20sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hello we have lost all our infomation and we need your help to rediscover what we have lost, select a scientific catagory and we can run you though the question process"
+        android:textSize="16sp"/>
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardElevation="5dp"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:padding="5dp"
+            android:background="#E7F8D3"
+            android:gravity="center"
+            android:layout_marginTop="50dp"
+            >
+            <ImageView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:layout_marginStart="20dp"
+                android:src="@drawable/biology"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Biology"
+                android:layout_marginStart="14dp"
+                android:textSize="16sp"/>
+        </LinearLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardElevation="5dp"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:id="@+id/btn_chemistry"
+            android:layout_height="50dp"
+            android:padding="5dp"
+            android:background="#F8F6D3"
+            android:gravity="center"
+            android:layout_marginTop="24dp"
+            >
+            <ImageView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:layout_marginStart="20dp"
+                android:src="@drawable/chemistry"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Chemistry"
+                android:layout_marginStart="20dp"
+                android:textSize="16sp"/>
+        </LinearLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardElevation="5dp"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:padding="5dp"
+            android:background="#D3E8F8"
+            android:gravity="center"
+            android:layout_marginTop="24dp"
+            >
+            <ImageView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:layout_marginStart="20dp"
+                android:src="@drawable/calculating"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mathematics"
+                android:layout_marginStart="20dp"
+                android:textSize="16sp"/>
+        </LinearLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardElevation="5dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:padding="5dp"
+            android:background="#F8D3D3"
+            android:gravity="center"
+            android:layout_marginTop="24dp"
+            >
+            <ImageView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:layout_marginStart="20dp"
+                android:src="@drawable/atom"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Physics"
+                android:layout_marginStart="20dp"
+                android:textSize="16sp"/>
+        </LinearLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+</LinearLayout>

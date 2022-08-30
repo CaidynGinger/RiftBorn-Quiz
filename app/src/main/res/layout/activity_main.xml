@@ -70,7 +70,7 @@
                         android:layout_height="wrap_content"
                         android:hint="Name"
                         android:inputType="text"
-                        android:textColor="#c0392b"
+                        android:textColor="@color/black"
                         android:textColorHint="#7a8089"/>
 
                 </com.google.android.material.textfield.TextInputLayout>
